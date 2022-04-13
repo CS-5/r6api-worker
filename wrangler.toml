@@ -1,4 +1,4 @@
-name = "worker-typescript-template"
+name = "r6api-worker"
 type = "javascript"
 zone_id = ""
 account_id = ""

@@ -1,7 +1,8 @@
 import { Router } from "itty-router";
+import R6API from "r6api.js";
 
-// now let's create a router (note the lack of "new")
-const router = Router();
+const router = Router({ base: "/api" });
+const r6api = new R6API({ email: UBI_EMAIL, password: UBI_PASSWORD });
 
 // GET
 router.get("/hello", () => new Response("Hello World!"));
